@@ -112,7 +112,8 @@ button, input {
     color: #c46767;
     border: 1px solid #c46767;
     background-color: transparent;
-
+    cursor: pointer;
 }
+
 
 
