@@ -38,7 +38,6 @@ body {
 canvas {
     border: 1px solid #ccc;
     cursor: crosshair;
-    max-width: 90%;
 }
 
 #gallery {
@@ -108,3 +107,4 @@ button, input {
     background-color: transparent;
 
 }
+
