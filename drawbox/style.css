@@ -4,6 +4,29 @@ body {
     line-height: 1em;
 }
 
+/*///////////////
+/// SCROLLBAR ///
+///////////////*/
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c46767 transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
 /* FONTS */
 
 @font-face {
@@ -83,4 +106,5 @@ button, input {
     color: #c46767;
     border: 1px solid #c46767;
     background-color: transparent;
+
 }
