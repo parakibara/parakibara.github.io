@@ -1,0 +1,86 @@
+body {
+    font-size: 14px;
+    font-family: Calibri, Candara, Segoe;
+    line-height: 1em;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: NeoClassical;
+    src: url('NeoClassicalGoth.otf');
+}
+
+/* DRAWBOX */
+canvas {
+    border: 1px solid #ccc;
+    cursor: crosshair;
+    max-width: 90%;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    background-color: #c46767;
+    color: #fff;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* STRUCTURE */
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.commands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 1em;
+    color: #c46767;
+    font-family: NeoClassical, serif;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-1);
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: var(--accent-2);
+}
+
+button, input {
+    color: #c46767;
+    border: 1px solid #c46767;
+    background-color: transparent;
+}
